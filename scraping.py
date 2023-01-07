@@ -19,6 +19,6 @@ def productDataScrape(html):
             }
         products_data_list.append(Data)
 
-    return products_data_list
+    return products_data_list,Data
 
 # productDataScrape("phones")
